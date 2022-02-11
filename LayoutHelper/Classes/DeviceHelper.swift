@@ -35,7 +35,7 @@ let deviceSize : UIDeviceSize = {
     case 693:
          return .i4_7Inch
     case 667:
-        return UIScreen.main.scale == 3.0 ? .i5_5Inch : .i4_7Inch
+        return UIScreen.main.nativeScale == 3.0 ? .i5_5Inch : .i4_7Inch
     case 736:
         return .i5_5Inch
     case 812:
